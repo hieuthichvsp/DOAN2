@@ -1,0 +1,42 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\lolhi\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.1.1\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\lolhi\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.1.1\\variants\\doitESP32devkitV1"
+  },
+  {
+    "Sourcefile": "c:\\Users\\lolhi\\Documents\\Vsc_arduino\\DoAn2\\Arduino\\build\\sketch\\sketch.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\lolhi\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.1.1\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\lolhi\\Documents\\Vsc_arduino\\DoAn2\\Arduino\\build\\sketch\\sketch.ino.cpp",
+    "Include": "MFRC522.h",
+    "Includepath": "C:\\Users\\lolhi\\Documents\\Arduino\\libraries\\MFRC522\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\lolhi\\Documents\\Vsc_arduino\\DoAn2\\Arduino\\build\\sketch\\sketch.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\lolhi\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.1.1\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\lolhi\\Documents\\Arduino\\libraries\\MFRC522\\src\\MFRC522.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\lolhi\\Documents\\Arduino\\libraries\\MFRC522\\src\\MFRC522Extended.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
