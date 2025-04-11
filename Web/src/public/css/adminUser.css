@@ -1,0 +1,99 @@
+.content {
+    /* Để tránh bị che bởi sidebar */
+    padding: 30px;
+    color: black;
+    min-height: 80%;
+    /* nền tối tạo độ tương phản */
+    background-color: white;
+    transition: 0.3s ease;
+    overflow-y: auto;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    /* dùng màu chính làm điểm nhấn */
+    padding-left: 32px;
+}
+
+table {
+    margin-left: 50px;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+thead {
+    background-color: #3399FF;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+tbody td {
+    padding: 12px 15px;
+    font-size: 15px;
+    color: #333;
+}
+
+.action-btns i {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.action-btns i.fa-eye {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.action-btns i.fa-edit {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.action-btns i.fa-trash {
+    background-color: #d9534f;
+    color: white;
+}
+
+.action-btns i:hover {
+    opacity: 0.8;
+}
+
+.greeting {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Ẩn input */
+#open {
+    display: none;
+}

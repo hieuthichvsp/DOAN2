@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/adminDashboardstyle.css">
+    <link rel="stylesheet" href="/css/adminUser.css">
+</head>
+
+<body>
+    <input type="checkbox" id="open">
+    <label for="open" class="open">
+        <i class="fas fa-bars"></i>
+    </label>
+    <span class="greeting">Xin chào ABC</span>
+
+    <div class="menu">
+        <div class="logo">
+            <a href="#">
+                <img src="/img/vlute_icon.png" alt="">
+            </a>
+        </div>
+        <ul>
+            <li><a href="#"><span><i class="fas fa-home"></i></span>Trang chủ</a></li>
+            <li><a href="/admin/userManagement"><span><i class="fas fa-user"></i></span>Quản lý người dùng</a></li>
+            <li><a href="#"><span><i class="fas fa-book"></i></span>Quản lý môn học</a></li>
+            <li><a href="#"><span><i class="fas fa-book-open"></i></span>Quản lý buổi học</a></li>
+            <li><a href="#"><span><i class="fas fa-pencil-alt"></i></span>Quản lý đăng ký môn học</a></li>
+            <li><a href="#"><span><i class="fas fa-qrcode"></i></span>Quản lý thẻ rfid</a></li>
+            <li><a href="#"><span><i class="fas fa-calendar-check"></i></span>Lịch sử điểm danh</a></li>
+            <li><a href="#"><span><i class="fas fa-history"></i></span>Quản lý Logs</a></li>
+        </ul>
+    </div>
+
+    <!-- ✅ Nội dung chính -->
+    <div class="content">
+        <h2>Danh sách người dùng</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Mã số</th>
+                    <th>Họ và Tên</th>
+                    <th>Email</th>
+                    <th>SDT</th>
+                    <th>Mật khẩu</th>
+                    <th>Loại</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>22004266</td>
+                    <td>Nguyễn Văn A</td>
+                    <td>nva@example.com</td>
+                    <td>1234</td>
+                    <td><a>xem</a></td>
+                    <td>Sinh viên</td>
+                    <td class="action-btns">
+                        <i class="fas fa-eye" title="Xem"></i>
+                        <i class="fas fa-edit" title="Sửa"></i>
+                        <i class="fas fa-trash" title="Xóa"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
